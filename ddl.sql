@@ -16,7 +16,7 @@ CREATE TABLE Employee (
 	person_id INT,
 	username VARCHAR (20) NOT NULL,
 	hiring_date DATE NOT NULL,
-	title ENUM ( 'manager', 'officer' ),
+	title ENUM ( 'manager', 'officer', 'analyst', 'teller', 'adviser' ),
 	manager_id INT,
 	
 	PRIMARY KEY (ID),
