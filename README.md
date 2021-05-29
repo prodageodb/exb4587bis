@@ -11,7 +11,7 @@ tracer dans une table _Audit_ tout changement sur le champ _title_ d'un enregist
 - Charger le fichier create_trigger.sql.
 - Vous pouvez ensuite jouer successivement les requêtes du fichier play_trigger.sql pour observer le comportement de la table Audit à la modification d'un enregistrement de la table Employee.
 
-## Mode d'emploi pour la transaction dans la procédure stockée (EXB6245txn)
+## Mode d'emploi pour la transaction dans la procédure stockée (EXB6245proc)
 ### Cas d'utilisation
 définir une procédure stockée qui vérifie que le nombre de manager de la table Employee est inférieur ou égal à 2 sinon, les mises à jour du champ _title_ sont refusées.
 ### Mise en oeuvre
