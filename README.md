@@ -4,7 +4,7 @@ TRIGGER adapté à un cas concret
 ## Contexte des deux exemples
 Avec le client MySQL de votre choix (SqlWorkbench, PhpMyAdmin, Adminer, ...), charger les 2 fichiers (ddl.sql et dml.sql) pour établir le contexte dans la base (construction des tables).
 
-## Mode d'emploi pour le TRIGGER (EXB4587)
+## Mode d'emploi pour le TRIGGER (EXB4587employee)
 ### Cas d'utilisation
 tracer dans une table _Audit_ tout changement sur le champ _title_ d'un enregistrement de la table _Employee_. A chaque fois qu'un changement sur un champ _title_ est fait (par un UPDATE), un enregistrement est ajouté dans la table Audit.
 ### Mise en oeuvre
